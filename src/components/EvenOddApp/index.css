@@ -1,0 +1,80 @@
+/* Write your CSS here */
+
+@media screen and (min-width: 768px) {
+  .container {
+    background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 10px;
+  }
+  .big-Container {
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .countHeading {
+    font-size: 40px;
+  }
+  .para {
+    font-size: 20px;
+    color: #334155;
+  }
+  .description-heading {
+    font-size: 15px;
+    color: #334155;
+  }
+
+  .button {
+    height: 30px;
+    font-size: 15px;
+    border-radius: 4px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 10px;
+  }
+  .big-Container {
+    background-size: cover;
+    width: 40vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .countHeading {
+    font-size: 20px;
+  }
+  .para {
+    font-size: 10px;
+    color: #334155;
+  }
+  .description-heading {
+    font-size: 10px;
+    color: #334155;
+  }
+
+  .button {
+    height: 20px;
+    font-size: 10px;
+    border-radius: 2px;
+  }
+}
